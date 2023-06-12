@@ -1,5 +1,14 @@
+import Card from './components/card/Card';
+import { CARDS } from './constants/cards';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			{CARDS.map(card => (
+				<Card key={card.id} {...card} />
+			))}
+		</>
+	);
 };
 
 export default App;

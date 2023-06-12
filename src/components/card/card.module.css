@@ -1,0 +1,38 @@
+.card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	width: 350px;
+	background-color: #ccc;
+	border-radius: 0.5rem;
+}
+
+.icon {
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+}
+
+.red {
+	border-top: 5px solid #ea5454;
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+
+.cyan {
+	border-top: 5px solid #44d3d2;
+	grid-column: 1/2;
+	grid-row: 2/4;
+}
+
+.orange {
+	border-top: 5px solid #fcae4a;
+	grid-column: 2/3;
+	grid-row: 4/5;
+}
+.blue {
+	border-top: 5px solid #549ef2;
+	grid-column: 3/4;
+	grid-row: 2/4;
+}
